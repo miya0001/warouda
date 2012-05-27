@@ -1,0 +1,70 @@
+/*
+Theme Name: kumanowarouda.jp
+Theme URI: http://www.elmastudio.de/wordpress-themes/yoko/
+Template: yoko
+Author: Takayuki Miyauchi
+*/
+
+#wp-admin-bar-site-name > a,
+#wp-admin-bar-edit > a,
+#wp-admin-bar-my-account > a
+{
+    color: #ffffff !important;
+}
+
+#wp-admin-bar-site-name > a:hover,
+#wp-admin-bar-edit > a:hover,
+#wp-admin-bar-my-account > a:hover
+{
+    color: #000000 !important;
+}
+
+.widget-area img
+{
+    width: 100%;
+    height: auto;
+}
+
+#page
+{
+    background-color: transparent;
+}
+
+#branding a
+{
+    color: #ffffff !important;
+}
+
+#branding a:hover
+{
+    color: #0074c2 !important;
+}
+
+#content
+{
+    background-color: #ffffff;
+}
+
+.entry-title
+{
+    font-size: 30px !important;
+}
+
+.hentry table
+{
+    border: 3px solid #cccccc;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hentry th
+{
+    border: 1px solid #cccccc;
+    background-color: #f5f5f5;
+}
+
+.hentry td
+{
+    border: 1px solid #cccccc;
+}
+
