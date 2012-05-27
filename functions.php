@@ -25,7 +25,7 @@ function yoko() {
 	register_nav_menus( array(
 		'primary' => __( 'Primary Navigation', 'yoko' ),
 	) );
-	
+
 	// Add support for Post Formats
 	add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'video', 'image', 'quote' ) );
 

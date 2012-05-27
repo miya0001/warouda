@@ -21,7 +21,7 @@ Author: Takayuki Miyauchi
 
 .widget-area img
 {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -30,12 +30,12 @@ Author: Takayuki Miyauchi
     background-color: transparent;
 }
 
-#branding a
+#branding #mainnav a
 {
     color: #ffffff !important;
 }
 
-#branding a:hover
+#branding #mainnav a:hover
 {
     color: #0074c2 !important;
 }
@@ -68,3 +68,19 @@ Author: Takayuki Miyauchi
     border: 1px solid #cccccc;
 }
 
+.wp_social_bookmarking_light div:last-child
+{
+    padding-top: 2px !important;
+}
+
+@media screen and (max-width : 620px) {
+.internal-link .post-thumb
+{
+    display: none;
+}
+.hentry div.wp_social_bookmarking_light div
+{
+    float: none !important;
+    margin: 5px 0 !important;
+}
+}
